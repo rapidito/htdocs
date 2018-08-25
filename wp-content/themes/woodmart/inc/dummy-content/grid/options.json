@@ -1,0 +1,26 @@
+{
+    "header": "split",
+    "top-bar": "",
+    "header_background": {
+        "background-color": "#131313"
+    },
+    "header_height": "90",
+    "header_color_scheme": "light",
+    "footer-bar-bg": {
+        "background-color": "#131313"
+    },
+    "footer-style": "light",
+    "sticky_footer": "yes",
+    "body-background": {
+        "background-color": "#000000"
+    },
+    "logo_padding": {
+        "padding-top": "10px",
+        "padding-right": "30px",
+        "padding-bottom": "10px",
+        "padding-left": "30px"
+    },
+    "shopping_icon_alt": "",
+    "header_search": "full-screen",
+    "header_my_account_style": "icon"
+}

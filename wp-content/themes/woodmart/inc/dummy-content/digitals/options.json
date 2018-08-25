@@ -1,0 +1,47 @@
+{
+    "primary-color": "#4876CA",
+    "header": "logo-center",
+    "menu_align": "center",
+    "footer-bar-bg": {
+        "background-color": "#17172F"
+    },
+    "footer-style": "light",
+    "btns_accent_bg": "#4876ca",
+    "btns_accent_bg_hover": "#346cd2",
+    "header_widget": "[html_block id=\"1132\"]",
+    "primary-font": {
+        "font-family": "Nunito"
+    },
+    "post-titles-font": {
+        "font-family": "Nunito",
+        "font-weight": "600"
+    },
+    "text-font": {
+        "font-family": "Open Sans"
+    },
+    "menu_background": {
+        "background-color": "#2E2E2E"
+    },
+    "menu_color_scheme": "light",
+    "top-bar-color": "dark",
+    "top-bar-bg": {
+        "background-color": "#FFFFFF"
+    },
+    "header_height": "80",
+    "logo_img_width": "210",
+    "header_search": "full-screen",
+    "header_wishlist": "topbar",
+    "btns_accent_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_shop_bg": "#4876ca",
+    "btns_shop_bg_hover": "#346cd2",
+    "product_summary_shadow": "yes",
+    "product-background": {
+        "background-color": "#f9f9f9"
+    },
+    "label_shape": "rectangular",
+    "products_hover": "tiled",
+    "shopping_cart": "4",
+    "shopping_icon_alt": null,
+    "header_text": "<strong>ADD ANYTHING HERE OR JUST REMOVE IT…<\/strong>"
+}

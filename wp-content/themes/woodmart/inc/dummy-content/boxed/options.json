@@ -1,0 +1,10 @@
+{
+    "site_width": "boxed",
+    "header": "simple",
+    "menu_align": "center",
+    "header_search": "dropdown",
+    "logo_img_width": "200",
+    "header_height": "90",
+    "products_hover": "icons",
+    "cart_position": "dropdown"
+}

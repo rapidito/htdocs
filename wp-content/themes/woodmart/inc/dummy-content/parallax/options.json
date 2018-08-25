@@ -1,0 +1,15 @@
+{
+    "header": "shop",
+    "top-bar": "",
+    "sticky_footer": "yes",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "background-color": "#000000"
+    },
+    "secondary-font": {
+        "font-family": "Satisfy"
+    },
+    "logo_img_width": "220",
+    "shopping_icon_alt": "",
+    "header_search": "full-screen"
+}

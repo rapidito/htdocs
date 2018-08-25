@@ -1,0 +1,40 @@
+{
+    "header": "split",
+    "top-bar": "",
+    "logo_img_width": "260",
+    "header_search": "full-screen",
+    "shopping_icon_alt": "",
+    "logo_padding": {
+        "padding-top": "10px",
+        "padding-right": "30px",
+        "padding-bottom": "10px",
+        "padding-left": "30px"
+    },
+    "footer-bar-bg": {
+        "background-color": "#111111"
+    },
+    "footer-style": "light",
+    "header-overlap": "yes",
+    "header_full_width": "yes",
+    "header_color_scheme": "light",
+    "primary-font": {
+        "font-family": "Playfair Display"
+    },
+    "post-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "600"
+    },
+    "widget-titles-font": {
+        "font-family": "Lora",
+        "font-weight": "600"
+    },
+    "primary-color": "#5f6e1e",
+    "btns_shop_bg": "#5f6e1e",
+    "btns_shop_bg_hover": "#4c5608",
+    "btns_accent_bg": "#5f6e1e",
+    "btns_accent_bg_hover": "#4c5608",
+    "btns_shop_style": "flat",
+    "page-title-size": "large",
+    "header_dropdowns_dark": "yes",
+    "header_my_account_style": "icon"
+}

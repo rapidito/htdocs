@@ -1,0 +1,28 @@
+{
+    "header": "simple",
+    "header_full_width": "yes",
+    "menu_align": "right",
+    "header_links": "",
+    "header_wishlist": "disable",
+    "primary-font": {
+        "font-family": "Poppins",
+        "font-weight": "700"
+    },
+    "secondary-font": {
+        "font-family": "Playfair Display",
+        "font-weight": "700"
+    },
+    "top-bar": "",
+    "full_screen_menu": "yes",
+    "footer-bar-bg": {
+        "background-color": "#1e1e1e"
+    },
+    "footer-style": "light",
+    "header_search": "full-screen",
+    "search_post_type": "portfolio",
+    "shop-background": "",
+    "header_dropdowns_dark": "yes",
+    "disable_footer": "",
+    "header_mobile": "right",
+    "menu_style": "bordered"
+}

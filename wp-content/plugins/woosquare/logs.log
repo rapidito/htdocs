@@ -1,0 +1,124 @@
+[info] [2018-08-16 02:07:06] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2018-08-16 02:07:06] The response of current location curl request{"type":"unauthorized","message":"Authorization header format incorrect"}
+[info] [2018-08-16 02:07:07] Currency code mismatch between Square [] and WooCommerce [NIO]
+[info] [2018-08-16 02:08:58] -------------------------------------------------------------------------------
+[info] [2018-08-16 02:08:58] Authorize square account with Token: sq0atp-FPq6g3LZizVjJzvtRYKpsw
+[info] [2018-08-16 02:08:59] The response of authorize curl request{"account_capabilities":["EMPLOYEE_MANAGEMENT","TIMECARD_MANAGEMENT"],"id":"FJRV9JHDJ3K7Y","name":"RapiMarket","email":"sbarkerzamora@gmail.com","country_code":"NI","language_code":"es","business_name":"RapiMarket","business_address":{"address_line_1":"El Predio Food Park","locality":"Managua","postal_code":"00000","country_code":"NI"},"business_type":"OTHER","account_type":"BUSINESS","currency_code":"NIO"}
+[info] [2018-08-16 02:09:00] The response of get locations request [{"account_capabilities":[],"id":"00CD73P2DND2V","name":"Stephan Barker","email":"sbarkerzamora@gmail.com","country_code":"NI","language_code":"es","business_name":"Brochetime","business_address":{"address_line_1":"El Predio Food Park, Las Colinas.","locality":"Managua","country_code":"NI"},"business_phone":{"calling_code":"+505","number":"88812743"},"business_type":"OTHER","account_type":"LOCATION","location_details":{"nickname":"Stephan Barker"},"currency_code":"NIO"}]
+[info] [2018-08-16 02:09:01] The response of setup webhook curl request {"type":"not_found","message":"Client does not exist. To use webhooks, you must first configure them up in your developer dashboard (https://connect.squareup.com/apps) for this application."}
+[info] [2018-08-16 02:09:01] -------------------------------------------------------------------------------
+[info] [2018-08-16 02:09:51] Getting currency code for square token: sq0atp-FPq6g3LZizVjJzvtRYKpsw, url: https://connect.squareup.com/v1/00CD73P2DND2V and location: 00CD73P2DND2V
+[info] [2018-08-16 02:09:52] The response of current location curl request{"account_capabilities":[],"id":"00CD73P2DND2V","name":"Stephan Barker","email":"sbarkerzamora@gmail.com","country_code":"NI","language_code":"es","business_name":"Brochetime","business_address":{"address_line_1":"El Predio Food Park, Las Colinas.","locality":"Managua","country_code":"NI"},"business_phone":{"calling_code":"+505","number":"88812743"},"business_type":"OTHER","account_type":"LOCATION","location_details":{"nickname":"Stephan Barker"},"currency_code":"NIO"}
+[info] [2018-08-16 02:09:57] Manual sync: [woo->square] start gathering data
+[info] [2018-08-16 02:09:58] Manual sync: [woo->square] end gathering data
+[info] [2018-08-16 02:10:05] ************************************************************
+[info] [2018-08-16 02:10:05] Start Manual Sync from Woo-commerce to Square: log:1
+[info] [2018-08-16 02:10:06] Manual sync: processing category:Bebidas[17] with action = add 
+[info] [2018-08-16 02:10:06] Adding category: {"name":"Bebidas"}
+[info] [2018-08-16 02:10:07] The response of adding new category curl request {"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"}
+[info] [2018-08-16 02:10:08] Manual sync: processing product:Tanque de gas[13] with action = add 
+[info] [2018-08-16 02:10:08] Product id: 13 is Simple Product
+[info] [2018-08-16 02:10:08] checking exists of Woocommerce sku '' on Square items
+[info] [2018-08-16 02:10:08] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:10:08] Simple product 13 ['Tanque de gas'] skipped from synch ( woo->square ): no SKU found
+[info] [2018-08-16 02:10:09] Terminating manual sync process by ajax
+[info] [2018-08-16 02:10:09] End Manual Sync from Woo-commerce to Square: log:1
+[info] [2018-08-16 02:10:09] ************************************************************
+[info] [2018-08-16 02:12:32] [add_update_product_hook] Start updating product on Square
+[info] [2018-08-16 02:12:32] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:12:33] Simple product 13 ['Tanque de gas'] skipped from synch ( woo->square ): no SKU found
+[info] [2018-08-16 02:12:33] [add_update_product_hook] End updating product on Square
+[info] [2018-08-16 02:12:42] Manual sync: [woo->square] start gathering data
+[info] [2018-08-16 02:12:43] Manual sync: [woo->square] end gathering data
+[info] [2018-08-16 02:12:48] ************************************************************
+[info] [2018-08-16 02:12:48] Start Manual Sync from Woo-commerce to Square: log:4
+[info] [2018-08-16 02:12:49] Manual sync: processing category:Bebidas[17] with action = update 
+[info] [2018-08-16 02:12:49] Editing category: {"name":"Bebidas"}
+[info] [2018-08-16 02:12:50] The response of edit category curl request {"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"}
+[info] [2018-08-16 02:12:51] Manual sync: processing product:Tanque de gas[13] with action = add 
+[info] [2018-08-16 02:12:51] Product id: 13 is Simple Product
+[info] [2018-08-16 02:12:51] checking exists of Woocommerce sku '00001' on Square items
+[info] [2018-08-16 02:12:51] SKU Not found.
+[info] [2018-08-16 02:12:51] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:12:53] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PUBLIC","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"type":"NORMAL"}
+[info] [2018-08-16 02:12:53] calling Manage_stock_from_square for13
+[info] [2018-08-16 02:12:53] Updating product inventory for simple product (1 variations)
+[info] [2018-08-16 02:12:55] The response of uploading image curl request{"id":"d6620d7e-2a20-4fb8-ae04-0220f3896496","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"}
+[info] [2018-08-16 02:12:56] Terminating manual sync process by ajax
+[info] [2018-08-16 02:12:56] End Manual Sync from Woo-commerce to Square: log:4
+[info] [2018-08-16 02:12:56] ************************************************************
+[info] [2018-08-16 02:24:19] Manual sync: [woo->square] start gathering data
+[info] [2018-08-16 02:24:22] The Simplified curl object{"00001":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}
+[info] [2018-08-16 02:24:22] Manual sync: [woo->square] end gathering data
+[info] [2018-08-16 02:24:30] ************************************************************
+[info] [2018-08-16 02:24:30] Start Manual Sync from Woo-commerce to Square: log:7
+[info] [2018-08-16 02:24:31] Manual sync: processing category:Bebidas[17] with action = update 
+[info] [2018-08-16 02:24:31] Editing category: {"name":"Bebidas"}
+[info] [2018-08-16 02:24:31] The response of edit category curl request {"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"}
+[info] [2018-08-16 02:24:32] Manual sync: processing product:Tanque de gas[13] with action = update 
+[info] [2018-08-16 02:24:32] Product id: 13 is Simple Product
+[info] [2018-08-16 02:24:32] checking exists of Woocommerce sku '00001' on Square items
+[info] [2018-08-16 02:24:32] SKU found. and the square product id: d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:24:32] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:24:33] GET  product with square_id = d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:24:34] The response of GET product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"d6620d7e-2a20-4fb8-ae04-0220f3896496","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"} CODE:[ 200 ]
+[info] [2018-08-16 02:24:36] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"d6620d7e-2a20-4fb8-ae04-0220f3896496","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"}
+[info] [2018-08-16 02:24:36] calling Manage_stock_from_square for13
+[info] [2018-08-16 02:24:37] Updating product inventory for simple product (1 variations)
+[info] [2018-08-16 02:24:41] The response of uploading image curl request{"id":"99852377-2ef7-4208-9391-d8cc0eb6422a","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"}
+[info] [2018-08-16 02:24:42] Terminating manual sync process by ajax
+[info] [2018-08-16 02:24:42] End Manual Sync from Woo-commerce to Square: log:7
+[info] [2018-08-16 02:24:42] ************************************************************
+[info] [2018-08-16 02:35:04] Manual sync: [woo->square] start gathering data
+[info] [2018-08-16 02:35:06] The Simplified curl object{"00001":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}
+[info] [2018-08-16 02:35:06] Manual sync: [woo->square] end gathering data
+[info] [2018-08-16 02:35:12] ************************************************************
+[info] [2018-08-16 02:35:12] Start Manual Sync from Woo-commerce to Square: log:10
+[info] [2018-08-16 02:35:13] Manual sync: processing category:Sin categoría[15] with action = add 
+[info] [2018-08-16 02:35:13] Adding category: {"name":"Sin categor\u00eda"}
+[info] [2018-08-16 02:35:14] The response of adding new category curl request {"id":"39d6fda9-1c69-4f5d-82b6-dcd4f99b6f27","name":"Sin categoría"}
+[info] [2018-08-16 02:35:15] Manual sync: processing category:Bebidas[17] with action = update 
+[info] [2018-08-16 02:35:15] Editing category: {"name":"Bebidas"}
+[info] [2018-08-16 02:35:16] The response of edit category curl request {"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"}
+[info] [2018-08-16 02:35:17] Manual sync: processing product:Tanque de gas[13] with action = update 
+[info] [2018-08-16 02:35:17] Product id: 13 is Simple Product
+[info] [2018-08-16 02:35:17] checking exists of Woocommerce sku '00001' on Square items
+[info] [2018-08-16 02:35:17] SKU found. and the square product id: d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:35:17] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:35:18] GET  product with square_id = d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:35:18] The response of GET product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"99852377-2ef7-4208-9391-d8cc0eb6422a","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"} CODE:[ 200 ]
+[info] [2018-08-16 02:35:20] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"99852377-2ef7-4208-9391-d8cc0eb6422a","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"}
+[info] [2018-08-16 02:35:20] calling Manage_stock_from_square for13
+[info] [2018-08-16 02:35:21] Updating product inventory for simple product (1 variations)
+[info] [2018-08-16 02:35:24] The response of uploading image curl request{"id":"e24a2a93-4325-4a12-8199-6dfa0c638ba3","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"}
+[info] [2018-08-16 02:35:25] Terminating manual sync process by ajax
+[info] [2018-08-16 02:35:25] End Manual Sync from Woo-commerce to Square: log:10
+[info] [2018-08-16 02:35:25] ************************************************************
+[info] [2018-08-16 02:35:47] Complete Order: 17
+[info] [2018-08-16 02:35:47] Order's items{"1":{}}
+[info] [2018-08-16 02:35:47] Simple item
+[info] [2018-08-16 02:36:06] Manual sync: [woo->square] start gathering data
+[info] [2018-08-16 02:36:08] The Simplified curl object{"00001":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}
+[info] [2018-08-16 02:36:08] Manual sync: [woo->square] end gathering data
+[info] [2018-08-16 02:36:11] ************************************************************
+[info] [2018-08-16 02:36:11] Start Manual Sync from Woo-commerce to Square: log:14
+[info] [2018-08-16 02:36:12] Manual sync: processing category:Sin categoría[15] with action = update 
+[info] [2018-08-16 02:36:12] Editing category: {"name":"Sin categor\u00eda"}
+[info] [2018-08-16 02:36:12] The response of edit category curl request {"id":"39d6fda9-1c69-4f5d-82b6-dcd4f99b6f27","name":"Sin categoría"}
+[info] [2018-08-16 02:36:13] Manual sync: processing category:Bebidas[17] with action = update 
+[info] [2018-08-16 02:36:13] Editing category: {"name":"Bebidas"}
+[info] [2018-08-16 02:36:15] The response of edit category curl request {"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"}
+[info] [2018-08-16 02:36:15] Manual sync: processing product:Tanque de gas[13] with action = update 
+[info] [2018-08-16 02:36:15] Product id: 13 is Simple Product
+[info] [2018-08-16 02:36:15] checking exists of Woocommerce sku '00001' on Square items
+[info] [2018-08-16 02:36:15] SKU found. and the square product id: d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:36:15] Adding/Updating  product: Tanque de gas [ id=13 ]
+[info] [2018-08-16 02:36:16] GET  product with square_id = d3be0eaf-19a3-45f0-9313-e6e0560f7f82
+[info] [2018-08-16 02:36:17] The response of GET product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"e24a2a93-4325-4a12-8199-6dfa0c638ba3","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"} CODE:[ 200 ]
+[info] [2018-08-16 02:36:20] The response of adding new product curl request {"images":[],"fees":[],"modifier_lists":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"b8c50a22-4bad-4545-afe7-3cc45b2719a1","name":"Regular","price_money":{"currency_code":"NIO","amount":32000},"sku":"00001","ordinal":1,"item_id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"d3be0eaf-19a3-45f0-9313-e6e0560f7f82","description":"Con el Tanque de Gas podrás hacer múltiples funciones, ya que sirve para todo tipo de ocasión, excelente para usarse en un calefactor portátil hasta poder usarlo con un disco o asador para una deliciosa parrillada.","name":"Tanque de gas","category_id":"2c1b34ce-8d57-423b-9543-213f44bff3db","category":{"id":"2c1b34ce-8d57-423b-9543-213f44bff3db","name":"Bebidas"},"master_image":{"id":"e24a2a93-4325-4a12-8199-6dfa0c638ba3","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"},"type":"NORMAL"}
+[info] [2018-08-16 02:36:20] calling Manage_stock_from_square for13
+[info] [2018-08-16 02:36:21] Updating product inventory for simple product (1 variations)
+[info] [2018-08-16 02:36:23] The response of uploading image curl request{"id":"0cd8694b-26d3-4a5c-ba20-2b60e3e02b71","url":"https://images-production-f.squarecdn.com/3wc3i8mcJLznsdAKlDL_RTXFd1Y=/https://square-production.s3.amazonaws.com/files/84a04dad39e144447d51230cc0374c4a6bfecabc/original.png"}
+[info] [2018-08-16 02:36:25] Terminating manual sync process by ajax
+[info] [2018-08-16 02:36:25] End Manual Sync from Woo-commerce to Square: log:14
+[info] [2018-08-16 02:36:25] ************************************************************

@@ -1,0 +1,22 @@
+{
+    "header": "split",
+    "logo_img_width": "240",
+    "logo_padding": {
+        "padding-top": "10px",
+        "padding-right": "30px",
+        "padding-bottom": "10px",
+        "padding-left": "30px"
+    },
+    "shopping_cart": "1",
+    "shopping_icon_alt": "",
+    "header_search": "full-screen",
+    "top-bar-bg": {
+        "background-color": "#212121"
+    },
+    "products_hover": "button",
+    "footer-bar-bg": {
+        "background-color": "#131313"
+    },
+    "footer-style": "light",
+    "header_my_account_style": "icon"
+}

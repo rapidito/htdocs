@@ -1,0 +1,49 @@
+{
+    "header": "split",
+    "top-bar": "",
+    "header_height": "90",
+    "header-overlap": "yes",
+    "header_color_scheme": "light",
+    "logo_img_width": "260",
+    "logo_padding": {
+        "padding-top": "10px",
+        "padding-right": "30px",
+        "padding-bottom": "10px",
+        "padding-left": "30px"
+    },
+    "menu_style": "bordered",
+    "shopping_icon_alt": "",
+    "shopping_cart": "1",
+    "primary-font": {
+        "font-family": "Cabin"
+    },
+    "post-titles-font": {
+        "font-family": "Cabin"
+    },
+    "text-font": {
+        "font-family": "Cabin"
+    },
+    "widget-titles-font": {
+        "font-family": "Cabin",
+        "font-weight": "700"
+    },
+    "navigation-font": {
+        "font-family": "Cabin",
+        "font-weight": "700"
+    },
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_shop_bg": "#52bd72",
+    "btns_shop_bg_hover": "#45a963",
+    "btns_accent_bg": "#52bd72",
+    "btns_accent_bg_hover": "#45a963",
+    "products_hover": "quick",
+    "categories_design": "center",
+    "primary-color": "#52bd72",
+    "header_search": "full-screen",
+    "page-title-size": "large",
+    "product_design": "alt",
+    "form_border_width": "1",
+    "header_my_account_style": "icon"
+}

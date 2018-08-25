@@ -1,0 +1,13 @@
+{
+    "header": "simple",
+    "menu_align": "center",
+    "top-bar": "",
+    "shopping_icon_alt": "",
+    "header_search": "full-screen",
+    "footer-bar-bg": {
+        "background-color": "#000000"
+    },
+    "sticky_footer": "yes",
+    "footer-style": "light",
+    "logo_img_width": "220"
+}

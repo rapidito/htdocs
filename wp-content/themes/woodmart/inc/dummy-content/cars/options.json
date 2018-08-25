@@ -1,0 +1,20 @@
+{
+    "top-bar-bg": {
+        "background-color": "#0054ac"
+    },
+    "header": "simple",
+    "menu_align": "center",
+    "header_full_width": "yes",
+    "header_search": "full-screen",
+    "shopping_icon_alt": "",
+    "primary-color": "#0054ac",
+    "primary-font": {
+        "font-family": "Montserrat",
+        "font-weight": "700"
+    },
+    "btns_accent_bg": "#0054ac",
+    "btns_shop_bg": "#0054ac",
+    "btns_accent_color_scheme": "",
+    "btns_accent_bg_hover": "#034181",
+    "btns_shop_bg_hover": "#034181"
+}

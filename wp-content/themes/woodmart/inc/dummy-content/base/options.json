@@ -1,0 +1,11 @@
+{
+	"blog_excerpt" : "excerpt",
+	"additional_tab_text" : "[html_block id=\"242\"]",
+	"popup_text" : "[html_block id=\"212\"]",
+	"header-menu-text" : "[html_block id=\"259\"]",
+	"promo_popup" : true,
+	"header_search" : "disable",
+	"btns_default_bg_hover": "#efefef",
+    "btns_shop_bg_hover": "#6ca300",
+    "btns_accent_bg_hover": "#6ca300"
+}

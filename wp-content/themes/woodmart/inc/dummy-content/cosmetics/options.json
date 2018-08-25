@@ -1,0 +1,40 @@
+{
+    "top-bar": "",
+    "header_full_width": "yes",
+    "header_height": "85",
+    "header": "split",
+    "secondary-font": {
+        "font-family": "Satisfy"
+    },
+    "primary-font": {
+        "font-family": "lato"
+    },
+    "post-titles-font": {
+        "font-family": "lato",
+        "font-weight": "700"
+    },
+    "widget-titles-font": {
+        "font-family": "lato"
+    },
+    "logo_padding": {
+        "padding-top": "10px",
+        "padding-right": "30px",
+        "padding-bottom": "10px",
+        "padding-left": "30px"
+    },
+    "logo_img_width": "260",
+    "shopping_icon_alt": "",
+    "header_search": "full-screen",
+    "primary-color": "#7BBBDD",
+    "btns_shop_style": "flat",
+    "btns_shop_bg": "#7BBBDD",
+    "btns_shop_bg_hover": "#67a7ca",
+    "btns_accent_bg": "#7BBBDD",
+    "btns_accent_bg_hover": "",
+    "form_border_width": "1",
+    "products_hover": "quick",
+    "categories_design": "center",
+    "product_design": "alt",
+    "product_sticky": "yes",
+    "header_my_account_style": "icon"
+}

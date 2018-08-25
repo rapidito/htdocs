@@ -1,0 +1,8 @@
+{
+    "require": {
+            "opauth/opauth": "*",
+            "opauth/facebook": "*",
+            "opauth/google": "*",
+            "opauth/vkontakte": "dev-master"
+    }
+}

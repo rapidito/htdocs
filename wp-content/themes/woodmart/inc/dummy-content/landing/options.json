@@ -1,0 +1,14 @@
+{
+    "site_width": "wide",
+    "primary-font": {
+        "font-family": "Lato",
+        "font-weight": 300
+    },
+    "top-bar-color": "dark",
+    "top-bar-bg": "#fff",
+    "logo_img_width": "210",
+    "header_search": "full-screen",
+    "header_height": "90",
+    "shopping_icon_alt": "",
+    "header": "shop"
+}
